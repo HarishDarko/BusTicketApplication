@@ -130,14 +130,14 @@ app.post('/agentlogin',(req,res)=>{
                     // const dock=db.collection('').doc(auth.currentUser.uid)
                     const  collections = db.collection('Bus');
                     collections.get().then((d)=>{
-                        let medlist=[]
+                        let buslist=[]
                         d.forEach(doc =>{
                             // console.log(doc.data());
                             // renderList(doc)
-                            medlist.push({data:doc.data(),uid:doc.id})
+                            buslist.push({data:doc.data(),uid:doc.id})
                         })
-                        console.log(medlist)
-                        res.render('dashboard2',{navlogut:auth_status,list:medlist});
+                        console.log(buslist)
+                        res.render('dashboard2',{navlogut:auth_status,list:buslist});
                         
                         
                     })
