@@ -20,12 +20,12 @@ password - harishdarko
 
                         dashboard
 
-![dashboard](./images/addbus.png)
+![dashboard](images/addbus.png)
 
                     busdetails
 
-![busdetails](./images/busdetails.png)
+![busdetails](images/busdetails.png)
 
                        firebase
 
-![firebase](./images/firebase1.png)
+![firebase](images/firebase1.png)
